@@ -1,0 +1,49 @@
+<?php
+    include "db_con.php";
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2조</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div id="wrap">
+       <?php
+            if(isset($_SESSION['id'])){
+        ?>
+        <h1 class="rogo">
+            <img src="" alt="">
+        </h1>
+        <form action="../php/login.php" method="post">
+            <input type="text" name="id" placeholder="ID" id="id"><br>
+            <input type="password" name="pw" placeholder="PW" id="pw">
+            <button type="submit">로그인</button><br>
+            <a href="signup.html">아이디가 없으시다면?</a><br>
+            <a href="forget.html">아이디/비밀번호 찾기</a>
+        </form>
+        <?php
+            }else{
+        ?>
+        <div class="cafe_list">
+        <?php
+            
+        ?>
+        <p>카페 목록이 없습니다.</p>
+        </div>
+        <div class="info">
+            <h1 class="face">
+                <img src="" alt="">
+            </h1>
+            <p>이름:</p>
+            <ul class="my_cafe">
+                <li></li>
+            </ul>
+        </div>
+        <?php
+            }
+        ?>
+    </div>
+</body>
+</html>

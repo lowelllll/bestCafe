@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="./css/common.css">
+     <link rel="stylesheet" href="./css/video.css">
+     <link rel="stylesheet" href="./css/change.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrap">
+        <video autoplay loop>
+                <source src="Beach.mp4" type="video/mp4" />
+            </video>
+            <h1>PASSWORD_CHANGE</h1>
+        <div class="main">
+            <form action="change.php" method="POST" >
+                 <label for="id">ID</label><input type="text" name="id" id="id" required><br>
+                <label for="now_pw">NOW_PASSWORD</label><input type="password" name="now_pw" id="now_pw" required>
+                <label for="email">EMAIL</label><input type="email" name="email" id="email" required>
+                <label for="pw">PASSWORD</label><input type="password" name="pw" id="pw" required>  
+               <button type="submit" > <i class="large material-icons">check</i></button><br>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="./js/common.js"></script>

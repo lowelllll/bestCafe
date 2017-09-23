@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+a{
+    text-decoration: none;
+}
+#wrap {
+    width:100%;
+    overflow: auto;
+    position: relative;
+}
+header {
+    width:100%;
+    height:100px;
+}
+
+
+section{
+    width:30%;
+    height:600px;
+    float:left;
+    margin-left:30%;
+    
+}
+
+form {
+    width:100%;
+    
+}
+section .tb {
+    width:100%;
+    height:400px;
+    display: table;
+    border-collapse: separate;
+    
+}
+#title{
+    width:100%;
+    border:none;
+    
+}
+.tb  button {
+    border: 2px solid #58adad;
+    background-color:rgba(255,255,255,0);
+    border-radius: 100%;
+    width:40px;
+    height:40px;
+    cursor:pointer;
+}
+.tb button > i {
+    color:#58adad;
+}
+
+.tb button:hover {
+    transition:0.3s;
+    background-color:#58adad;
+    border:2px solid #58adad;
+}
+.tb button:hover i {
+    transition:0.3s;
+    color:#fff;
+}
+  textarea{
+      border:none;
+      border-top:1px solid #ddd;
+      border-bottom:1px solid #ddd;
+      font-size:15px;
+}
+#hr {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ccc;
+}
+
+td > input {
+    width:100%;
+    height:40px;
+}
+.tb tr:nth-child(2){
+    font-size:30px;
+}
+
+aside {
+    width:15%;
+    float:left;
+    margin-left:15%;
+}
+.cover {
+    width:100%;
+    height:250px;
+    border:1px solid #ddd;
+}
+.cover p {
+    width:100%;
+    text-align: center;
+    height:30px;
+    margin-top:5%;
+}
+
+aside button {
+    width:100%;
+    height:50px;
+    margin-top:10%;
+    border:1px solid #ddd;
+    background-color:#58adad;
+    color:#fff;
+    cursor: pointer;
+} 
+
+.info {
+    width:100%;
+    height:150px;
+    margin-top:10%;
+}
+
+.info  p {
+    width:100%;
+    text-align: center;
+    margin-top:8%;
+}
+.info div {
+    width:100%;
+    height:49%;
+    overflow: auto;
+}
+.info div:last-child{
+    border-top:1px solid #ddd;
+}
+
+.category {
+    width:100%;
+    margin-top:5%;
+}
+.category ul{
+    width:100%;
+    border-top:1px solid #ddd;
+}
+.category li {
+    text-align:right;
+    height:50px;
+    line-height: 50px;
+}
+.category span {
+    color:#58adad;
+}
+.category a{
+    color:#000;
+}
+
+aside, section {
+    margin-bottom:10%;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+footer {
+    width:100%;
+    height:100px;
+ float:left;
+    position:absolute;
+    bottom:0px;
+    
+   
+}

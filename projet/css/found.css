@@ -1,0 +1,48 @@
+.main form > input {
+    border:none;
+    width:60%;
+    height:30px;
+    margin-top:30px;
+    border-radius: 10px;
+    margin-left:15%;
+    background-color:rgba(255,255,255,0.7);
+}
+label {
+    width:50px;
+    display: inline-block;
+    color:#285e66;
+     margin-left:20px;
+}
+.main {
+    height:300px;
+    margin-top:-150px;
+}
+.main button {
+    width:130px;
+    height:40px; 
+    border: 1.5px solid #fff;
+    background-color:rgba(255,255,255,0);
+    color:#fff;
+    margin-left:8%;
+    margin-top:5%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.main button:hover {
+    transition:0.3s;
+    background-color:#285e66;
+    border:none;
+}
+.main p {
+    text-align: center;
+    margin-top:15px;
+}
+
+h1 {
+    width:200px;
+    position:absolute;
+    left:50%;
+    margin-left:-150px;
+    top:30%;
+    color:#fff;
+}
